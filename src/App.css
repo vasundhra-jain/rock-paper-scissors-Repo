@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-container {
+  background-color: #223a5f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.item {
+  font-size: 17px;
+  font-family: bree serif;
+  font-weight: 300;
+}
+
+.score-container {
+  background-color: #ffffff;
+  font-family: roboto;
+  border-radius: 10px;
+  color: #223a5f;
+  width: 150px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.score {
+  padding: 0px;
+  margin: 5px;
+  font-family: 'Roboto';
+}
+
+.score-para {
+  margin: 0px;
+  padding: 0px;
+  font-family: roboto;
+  font-weight: 500;
+}
+
+.item-button {
+  height: 120px;
+  background-color: transparent;
+  border: 0px;
+}
+
+.item-img {
+  height: 120px;
+}
+
+.item-button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  align-items: center;
+  margin-top: 100px;
+  width: 400px;
+}
+
+.rules {
+  align-self: flex-end;
+  color: #223a5f;
+  background-color: #ffffff;
+  font-family: bree serif;
+  border-radius: 5px;
+  border: 0px;
+  padding: 7px;
+  font-size: 10px;
+  width: 70px;
+}
+
+.rules-img {
+  height: 300px;
+  align-self: center;
+  margin-bottom: 15px;
+}
+
+.popup-content {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.trigger-button {
+  background-color: transparent;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.result-item-container {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.result-content {
+  font-family: roboto;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.result-content-para {
+  font-family: roboto;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;  
+}
+
+.play-again-btn {
+  color: #223a5f;
+  background-color: #ffffff;
+  font-family: bree serif;
+  border-radius: 5px;
+  border: 0px;
+  padding: 7px;
+  font-size: 10px;
+  width: 100px;
+}
